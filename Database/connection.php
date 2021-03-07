@@ -1,10 +1,11 @@
 <?php
 
 function testConnections(){
-  $servername = "127.0.0.1:3306";
+  $servername = "127.0.0.1";
   $database = "u240012342_Jordan_profile";
   $username = "Jordan";
   $password = "k/ZkMYj59";
+
   // Create connection
   $conn = mysqli_connect($servername, $username, $password, $database);
   // Check connection
