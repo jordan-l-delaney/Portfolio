@@ -5,9 +5,10 @@ function testConnections(){
   $database = "u240012342_Jordan_profile";
   $username = "Jordan";
   $password = "k/ZkMYj59";
+  $port = "3306";
 
   // Create connection
-  $conn = mysqli_connect($servername, $username, $password, $database);
+  $conn = mysqli_connect($servername, $username, $password, $database , $port);
   // Check connection
   if (!$conn) {
       die("Connection failed: " . mysqli_connect_error());
