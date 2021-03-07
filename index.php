@@ -14,7 +14,9 @@
 
 <body>
   <?php
-    $aows = false;
+    include 'Database/connection.php';
+
+    $aows = testConnections();
 
     echo ( $aows ? 'Happy' : 'Sad');
 
