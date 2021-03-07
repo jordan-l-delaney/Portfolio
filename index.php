@@ -16,9 +16,10 @@
   <?php
     include 'Database/connection.php';
 
-    $aows = testConnections();
+    var_dump($_SERVER);
+  //  $aows = testConnections();
 
-    echo ( $aows ? 'Happy' : 'Sad');
+  //  echo ( $aows ? 'Happy' : 'Sad');
 
   ?>
 </body>
