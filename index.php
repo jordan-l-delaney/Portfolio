@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+<head>
   <meta charset="utf-8">
 
   <title>Jordans Site</title>
@@ -13,7 +14,7 @@
 
 <body>
   <?php
-    $aows = true;
+    $aows = false;
 
     echo ( $aows ? 'Happy' : 'Sad');
 
