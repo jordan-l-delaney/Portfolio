@@ -3,8 +3,8 @@
 function testConnections(){
   $servername = "jordan-delaney.co.uk";
   $database = "u240012342_Jordan_profile";
-  $username = "Jordan";
-  $password = "k/ZkMYj59";
+  $username = "blanctech1@gmail.com";
+  $password = "Belleoli3";
   // Create connection
   $conn = mysqli_connect($servername, $username, $password, $database);
   // Check connection
