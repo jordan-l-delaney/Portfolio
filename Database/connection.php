@@ -1,7 +1,7 @@
 <?php
 
 function testConnections(){
-  $servername = "us-imm-web474.main-hosting.eu";
+  $servername = "jordan-delaney.co.uk";
   $database = "u240012342_Jordan_profile";
   $username = "Jordan";
   $password = "k/ZkMYj59";

@@ -15,11 +15,11 @@
 <body>
   <?php
     include 'Database/connection.php';
-    $test = $_SERVER['SERVER_NAME'];
-    var_dump($test);
-  //  $aows = testConnections();
+    // $test = $_SERVER['SERVER_NAME'];
+    // var_dump($test);
+   $aows = testConnections();
 
-  //  echo ( $aows ? 'Happy' : 'Sad');
+    echo ( $aows ? 'Happy' : 'Sad');
 
   ?>
 </body>
