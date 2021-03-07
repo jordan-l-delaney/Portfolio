@@ -15,8 +15,8 @@
 <body>
   <?php
     include 'Database/connection.php';
-
-    var_dump($_SERVER);
+    $test = gethostname();
+    var_dump($test);
   //  $aows = testConnections();
 
   //  echo ( $aows ? 'Happy' : 'Sad');
