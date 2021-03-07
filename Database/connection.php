@@ -3,7 +3,7 @@
 function testConnections(){
   $servername = "127.0.0.1";
   $database = "u240012342_Jordan_profile";
-  $username = "Jordan";
+  $username = "u240012342_Jordan";
   $password = "k/ZkMYj59";
   $port = "3306";
 
