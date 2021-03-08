@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+*{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: #dcdc39;
-    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f1faee;
 }
 
 body, .nav, .menu {
@@ -14,7 +18,7 @@ body, .nav, .menu {
 
 .nav {
     position: relative;
-    background-color: #fff;
+    background-color: #e63946;
     padding: 20px;
     transition: 0.5s;
     border-radius: 50px;
