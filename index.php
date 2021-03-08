@@ -36,7 +36,12 @@
 
 <div id="gmeTrack">
     <?php
-      var_dump( $GME['Time Series (Daily)']['2021-03-05']['4. close'] );
+    $todaysClose = $GME['Time Series (Daily)']['2021-03-05']['4. close'];
+    $myStock = ( $todaysClose * 10 ) * 0.85;
+
+    echo 'Todday GME Closed on ' . $todaysClose . ' my shares are worth ' . $myStock;
+
+
     ?>
 </div>
 
