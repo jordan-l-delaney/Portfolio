@@ -39,9 +39,9 @@
     $todaysClose = $GME['Time Series (Daily)']['2021-03-05']['4. close'];
     $myStock = ( $todaysClose * 10 ) * 0.85;
 
-    echo 'Today GME Closed on ' . $todaysClose . ' my shares are worth ' . $myStock;
-
-
+    echo '<p>
+        Today GME Closed on ' . $todaysClose . ' my shares are worth ' . $myStock . '
+          </p>';
     ?>
 </div>
 
