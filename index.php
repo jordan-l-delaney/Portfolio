@@ -29,20 +29,20 @@
 
   ?>
 <div class="section head">
-  <!-- </?php
+  <?php
     echo getnav();
-  ?> -->
+  ?>
 </div>
 
 <div id="gmeTrack" class="section gme">
-    <!-- </?php
-    $todaysClose = $GME['Time Series (Daily)']['2021-03-05']['4. close'];
+    <?php
+    $todaysClose = $GME['Time Series (Daily)']['2021-03-08']['4. close'];
     $myStock = ( $todaysClose * 10 ) * 0.85;
 
     echo '<p>
         Today GME Closed on ' . $todaysClose . ' my shares are worth ' . $myStock . '
           </p>';
-    ?> -->
+    ?>
 </div>
 
 </body>
