@@ -36,7 +36,7 @@
 
 <div id="gmeTrack">
     <?php
-      var_dump( $GME['Time Series (Daily)']['2021-03-05']['"4. close"'] );
+      var_dump( $GME['Time Series (Daily)']['2021-03-05']['4. close'] );
     ?>
 </div>
 
