@@ -52,7 +52,7 @@ body, .nav, .menu {
 }
 
 .menu li a:hover {
-    color: #161919;
+    color: #f1faee;
 }
 
 .nav input {
@@ -74,7 +74,7 @@ body, .nav, .menu {
 }
 
 .nav input:checked ~ span {
-    background-color: #f974a1;
+    background-color: #f1faee;
 }
 
 .nav span:nth-child(2) {
