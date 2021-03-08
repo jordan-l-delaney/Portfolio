@@ -6,16 +6,16 @@
 body {
     margin: 0;
     padding: 0;
-    /* min-height: 100vh; */
+    min-height: 100vh;
     background-color: #f1faee;
 }
 
 /* Re-used classes */
-.section{
+/* .section{
   height: 600px;
   margin: 0;
-  
-}
+
+} */
 
 /* Nav bar style */
 body, .nav, .menu {
