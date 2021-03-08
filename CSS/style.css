@@ -18,7 +18,7 @@ body, .nav, .menu {
 
 .nav {
     position: relative;
-    background-color: #e63946;
+    background-color: #a8dadc;
     padding: 20px;
     transition: 0.5s;
     border-radius: 50px;
@@ -45,7 +45,7 @@ body, .nav, .menu {
 
 .menu li a {
     text-decoration: none;
-    color: #666;
+    color: #f1faee;
     text-transform: uppercase;
     font-weight: 600;
     transition: 0.5s;
