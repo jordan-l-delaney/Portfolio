@@ -28,13 +28,13 @@
    $GME = json_decode($response, true);
 
   ?>
-<top>
+<div class="section head">
   <?php
     echo getnav();
   ?>
-</top>
+</div>
 
-<div id="gmeTrack">
+<div id="gmeTrack" class="section gme">
     <?php
     $todaysClose = $GME['Time Series (Daily)']['2021-03-05']['4. close'];
     $myStock = ( $todaysClose * 10 ) * 0.85;
