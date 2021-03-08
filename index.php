@@ -23,9 +23,23 @@
    // $aows = testConnections();
    //
    //  echo ( $aows ? 'Gay'  : 'Not gay ;( ');
+   $response = trackStock('GME');
 
-   echo getnav();
+   $GME = json_decode($response, true);
+
   ?>
+<top>
+  <?php
+    echo getnav();
+  ?>
+</top>
+
+<div id="gmeTrack">
+<?php
+  var_dump( $GME );
+?>
+
+</div>
 
 </body>
 </html>
