@@ -6,11 +6,10 @@ function getnav(){
             <span></span>
             <span></span>
             <div class="menu">
-              <li><a href="#">home</a></li>
+              <li><a href=".nav">nav</a></li>
               <li><a href="#">about</a></li>
-              <li><a href="#">cursos</a></li>
-              <li><a href="#">blog</a></li>
-              <li><a href="#">contactos</a></li>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Contanct</a></li>
             </div>
         </div>';
 }
