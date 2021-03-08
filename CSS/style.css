@@ -68,7 +68,7 @@ body, .nav, .menu {
     width: 30px;
     height: 4px;
     border-radius: 50px;
-    background-color: #666;
+    background-color: #f1faee;
     pointer-events: none;
     transition: 0.5s;
 }
