@@ -17,24 +17,15 @@
 <body>
   <?php
     include 'Database/connection.php';
-    // $test = $_SERVER['SERVER_NAME'];
-    // var_dump($test);
-   $aows = testConnections();
+    include 'Functions/front_end_functions.php';
+   //  // $test = $_SERVER['SERVER_NAME'];
+   //  // var_dump($test);
+   // $aows = testConnections();
+   //
+   //  echo ( $aows ? 'Gay'  : 'Not gay ;( ');
 
-    echo ( $aows ? 'Gay'  : 'Not gay ;( ');
-
+   echo getnav();
   ?>
-  <div class="nav">
-  <input type="checkbox">
-    <span></span>
-    <span></span>
-    <div class="menu">
-      <li><a href="#">home</a></li>
-      <li><a href="#">about</a></li>
-      <li><a href="#">cursos</a></li>
-      <li><a href="#">blog</a></li>
-      <li><a href="#">contactos</a></li>
-    </div>
-</div>
+
 </body>
 </html>
