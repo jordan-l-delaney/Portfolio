@@ -14,6 +14,7 @@ function testConnections(){
       die("Connection failed: " . mysqli_connect_error());
       return false;
   }else{
+    
     return true;
   }
 

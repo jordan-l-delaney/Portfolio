@@ -10,6 +10,8 @@
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
 
+  <script src="jquery-3.5.1.min.js"></script>
+
 </head>
 
 <body>
@@ -19,8 +21,20 @@
     // var_dump($test);
    $aows = testConnections();
 
-    echo ( $aows ? 'Happy' : 'Sad');
+    echo ( $aows ? 'Gay'  : 'Not gay ;( ');
 
   ?>
+  <div class="nav">
+  <input type="checkbox">
+    <span></span>
+    <span></span>
+    <div class="menu">
+      <li><a href="#">home</a></li>
+      <li><a href="#">about</a></li>
+      <li><a href="#">cursos</a></li>
+      <li><a href="#">blog</a></li>
+      <li><a href="#">contactos</a></li>
+    </div>
+</div>
 </body>
 </html>
